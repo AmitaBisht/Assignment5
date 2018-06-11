@@ -1,0 +1,12 @@
+#Oldest and youngest among 3
+A=input()
+B=input()
+C=input()
+if A>=B and A>=C:
+    print ("A is oldest")
+elif B>=A and B>=C:
+    print ("B is oldest")
+elif C>=A and C>=B:
+    print ("C is oldest")
+else:
+    print("All are equal age")
