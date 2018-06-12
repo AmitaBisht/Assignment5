@@ -3,7 +3,7 @@ print("Enter Quantity")
 Quantity=int(input())
 
 if Quantity*100>1000:
-    print("your total cost is",((Quantity*100)-(Quantity*10)))
+    print("your total cost is",((Quantity*100)-(.1*Quantity*100)))
 else:
 
     print ("your total cost is",Quantity*100)

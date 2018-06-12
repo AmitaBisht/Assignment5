@@ -3,12 +3,11 @@ print ("Enter points")
 points=int(input())
 if points<=50:
     print("Sorry! No Prize this time")
-elif (points>=50 and points<150):
+elif points<=150:
     print("Congratulations ! you won aWooden Dog")
-elif points>=150 and points<180:
+elif points<=180:
     print("Congratulations ! you won a Book")
-elif points>=180 and points<200:
-    print("Congatulations ! you won Chocolates")
 else:
-    print ("invalid number")
+    print("Congatulations ! you won Chocolates")
+
 

@@ -10,3 +10,15 @@ elif C>=A and C>=B:
     print ("C is oldest")
 else:
     print("All are equal age")
+if A<=B and A<=C:
+    print("A is youngest")
+elif B<=A and B<=C:
+    print("B is youngest")
+elif C<=A and C<=B:
+    print("C is youngest")
+if(A==B ):
+    print("A and B are equal")
+if(B==C):
+    print("B and C are equal")
+if(A==C):
+    print("A and C are equal")
